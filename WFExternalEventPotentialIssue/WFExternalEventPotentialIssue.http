@@ -1,0 +1,6 @@
+@WFExternalEventPotentialIssue_HostAddress = http://localhost:5170
+
+GET {{WFExternalEventPotentialIssue_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

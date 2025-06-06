@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFExternalEventPotentialIssue", "WFExternalEventPotentialIssue\WFExternalEventPotentialIssue.csproj", "{69E0F457-0488-4799-8A6D-8E2B14308EB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{138D7EC5-DCEC-46FA-9D6C-CE235E5BF172}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69E0F457-0488-4799-8A6D-8E2B14308EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E0F457-0488-4799-8A6D-8E2B14308EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E0F457-0488-4799-8A6D-8E2B14308EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E0F457-0488-4799-8A6D-8E2B14308EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
