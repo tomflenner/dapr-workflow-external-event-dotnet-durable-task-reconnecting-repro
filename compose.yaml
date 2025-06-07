@@ -29,7 +29,7 @@
     network_mode: "service:wfexternaleventpotentialissue"
     
   placement:
-    image: "daprio/dapr:1.15.4"
+    image: "daprio/dapr:1.15.5"
     command: ["./placement",
               "-port", "50005",
               "-log-level","warn"]
@@ -37,7 +37,7 @@
       - workflow-network
   
   scheduler-0:
-    image: "daprio/dapr:1.15.4"
+    image: "daprio/dapr:1.15.5"
     command: ["./scheduler",
               "--etcd-data-dir", "/var/run/dapr/scheduler"
     ]
@@ -67,7 +67,7 @@
 
 networks:
   workflow-network:
-    external: true
+    driver: bridge
 
 volumes:
   postgres-db-16-2:
